@@ -1,11 +1,11 @@
-# 来源与组件说明
+# 来源与范围
 
-胶片暗房0.8b：本地验收版本，APK SHA256固定为0afab54dd97f4a4ff3fea3236f19bb5d81d95db584177bdf7a6adcb05090ea23。原APK未重新编译。
+本候选保留全部现有滤镜。APK 仅包含新编写的 filmdarkroom_buffer 原生桥接，不再附带原来的 14 个 Sony 应用原生库；旧菜单、图标与资源表已移除。相机自身仍须提供 Scalar 系统接口。
 
-源码快照见source-0.8b。胶片工坊滤镜参考项目：https://github.com/ukiki0718-netizen/sony-a5100-film-studio 。继承的开源模块按各自许可处理。原应用框架、Sony专有接口及JNI组件仍属于各自权利人；不能把整个APK笼统声明为MIT/LGPL开源，源码快照也不授予Sony组件的额外再分发权。本包不包含独立的付费Sony应用安装包或固件。
+五组理光风格矩阵/曲线与 bonyback1/sony-pmca-ricoh-mod 提交 7c565898562c73c5073c54dfc831c8c3df9c24cf 相同，保留 Apache-2.0。胶片工坊原创部分按其适用 PolyForm Noncommercial 1.0.0 条款处理。富士 LUT 衍生参数的独立改编/再分发授权尚未确认，不因免费分发或署名而视为取得额外许可。
 
-PMCA v0.18：https://github.com/ma1co/Sony-PMCA-RE/releases/tag/v0.18 ，MIT，见licenses。
-Tweak v0.11：https://github.com/ma1co/OpenMemories-Tweak/releases/tag/v0.11 ，MIT，见licenses。
-ADB来自Google Platform Tools，本地版本见platform-tools/source.properties，第三方声明见platform-tools/NOTICE.txt，来源https://developer.android.com/tools/releases/platform-tools 。
+SonyLevels 的 LibRaw 移植部分有 LGPL-2.1-or-later 来源说明；对应源码和可重建资料在 Source-Review.zip。完整许可证及历史通知保留在其中 legal/，亦在 APK assets/legal/。历史通知不代表旧库仍被打包。不能把整个 APK 统一标为 MIT、Apache 或全部自研。
 
-首次安装器为本次新增，不依赖早期RAW应用；APK包含运行所需的MemoryUtil JNI库。Sony系统接口仍由相机提供。新安装器未在另一台空白相机上真机验证。
+这是候选软件及证据披露，不是全部第三方权利已获确认的保证。新源码形式、组合分发义务等尚未宣称完成法律审查。
+
+不包含固件、签名私钥或用户媒体。PMCA/Tweak 许可见 licenses；Google Platform Tools 由用户从官方获取。
