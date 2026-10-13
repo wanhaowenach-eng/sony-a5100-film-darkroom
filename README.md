@@ -1,10 +1,10 @@
-# 胶片暗房
+# 胶片暗房0.9（公开试用）
 
 Sony a5100 机内 RAW 后期工具。选择已有 ARW / RAW+JPEG，应用滤镜与调色，另存 JPEG 到原生相册，保留源 RAW。非 Sony 官方应用。
 
 ## 下载与安装
 
-**[下载经典图标版 0.8b（公开试用）](https://github.com/wanhaowenach-eng/sony-a5100-film-darkroom/releases/tag/v0.8b-bridge8-icon)**
+**[下载胶片暗房0.9（公开试用）](https://github.com/wanhaowenach-eng/sony-a5100-film-darkroom/releases/tag/v0.8b-bridge8-icon)**
 
 Windows 用户下载 Release 的 `FilmDarkroom-Bridge8-NewUser-Windows.zip`，完整解压后打开 `安装教程.html`。不要把 GitHub 自动生成的 Source code ZIP 当作安装包。
 
@@ -23,7 +23,7 @@ Windows 用户下载 Release 的 `FilmDarkroom-Bridge8-NewUser-Windows.zip`，�
 
 ## 版本与验证范围
 
-当前内部版本：`0.8b-bridge8-icon`。已在 **Sony a5100 / ILCE-5100、固件 3.10、Windows** 环境试用，用户反馈本版无异常。其他机型、固件未验证。
+对外发布名称：**胶片暗房0.9（公开试用）**。当前内部版本：`0.8b-bridge8-icon`。已在 **Sony a5100 / ILCE-5100、固件 3.10、Windows** 环境试用，用户反馈本版无异常。其他机型、固件未验证。
 
 分页模拟检查覆盖 5000 项和跨批次增删；大量照片的实机跨页仍待更多验证。已浏览文字索引保留，不承诺无限内存容量。另一台空白相机的完整首次安装流程尚未实测。
 
@@ -36,3 +36,4 @@ Windows 用户下载 Release 的 `FilmDarkroom-Bridge8-NewUser-Windows.zip`，�
 各组件适用各自许可，部分继承滤镜参数的再分发授权仍在核查。请阅读 [SOURCE-NOTICE.md](SOURCE-NOTICE.md) 和源码包中的历史许可记录。旧 Sony 应用原生库及旧资源已移除，相机自身仍需 Scalar 系统接口。
 
 反馈请提供机型、固件、版本、操作步骤和屏幕错误文字。无需上传照片、视频、真实 IP 或原始设备日志。
+
